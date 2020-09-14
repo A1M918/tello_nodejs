@@ -1,0 +1,26 @@
+{
+  "name": "tello_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A1M918/tello_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A1M918/tello_nodejs/issues"
+  },
+  "homepage": "https://github.com/A1M918/tello_nodejs#readme",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "readline": "^1.3.0",
+    "socket.io": "^2.3.0",
+    "waait": "^1.0.5"
+  }
+}

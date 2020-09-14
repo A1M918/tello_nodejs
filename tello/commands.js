@@ -1,0 +1,18 @@
+module.exports = {
+  command: 'command',
+  battery:'battery?',
+  takeoff: 'takeoff',
+  land: 'land',
+  streamon: 'streamon',
+  streamoff: 'streamoff',
+  emergency: 'emergency',
+  up: (x) => `up ${x}`,
+  down: (x) => `down ${x}`,
+  left: (x) => `left ${x}`,
+  right: (x) => `right ${x}`,
+  forward: (x) => `forward ${x}`,
+  back: (x) => `back ${x}`,
+  cw: (x) => `cw ${x}`,
+  ccw: (x) => `ccw ${x}`,
+  flip: (x) => `flip ${x.slice(0,1)}`,
+}
